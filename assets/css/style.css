@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(30, 54%, 90%);
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+body p {
+  font-size: 16px;
+}
+
+.container {
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+@media (max-width: 375px) {
+  .container {
+    padding: 0;
+  }
+}
+
+main {
+  width: 650px;
+  background: hsl(0, 0%, 100%);
+  padding: 1rem;
+  margin-block: 6rem;
+  border-radius: 20px;
+}
+@media (max-width: 375px) {
+  main {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+main header {
+  padding: 1rem;
+}
+@media (max-width: 375px) {
+  main header {
+    width: 100%;
+    padding: 0;
+  }
+}
+main header img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+@media (max-width: 375px) {
+  main .container .content {
+    padding: 1rem;
+  }
+}
+main .container .content .title {
+  margin-bottom: 1rem;
+}
+main .container .content .title h1 {
+  font-family: "Young Serif", serif;
+}
+main .container .content .title p {
+  font-family: "Outfit";
+}
+main .container .content .preparation {
+  font-family: "Outfit";
+  background: hsl(330, 100%, 98%);
+  padding: 1rem;
+  border-radius: 10px;
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 1.5rem;
+}
+main .container .content .preparation h2 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+main .container .content .preparation ul {
+  margin-left: 1.5rem;
+}
+main .container .content .preparation ul li {
+  margin-bottom: 0.5em;
+}
+main .container .content .preparation ul li b {
+  padding-left: 1rem;
+}
+main .container .content .ingredients {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+main .container .content .ingredients h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: hsl(14, 45%, 36%);
+}
+main .container .content .ingredients ul {
+  margin-left: 1rem;
+  font-family: "Outfit";
+  font-size: 14px;
+  color: hsl(30, 10%, 34%);
+}
+main .container .content .ingredients ul li {
+  padding-left: 1rem;
+  margin-bottom: 0.8rem;
+}
+main .container .content .instructions {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+main .container .content .instructions h4 {
+  font-size: 1.5rem;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 1rem;
+}
+main .container .content .instructions ol {
+  margin-left: 1rem;
+  font-family: "Outfit";
+  font-size: 14px;
+  line-height: 1.6;
+}
+main .container .content .instructions ol li {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  margin-bottom: 7px;
+  padding-left: 15px;
+}
+main .container .content .instructions ol li span {
+  font-weight: normal;
+}
+main .container .content .nutrition h5 {
+  font-size: 1.5rem;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 2rem;
+}
+main .container .content .nutrition p {
+  font-family: "Outfit";
+  margin-bottom: 1rem;
+}
+main .container .content .nutrition table {
+  margin-top: 10px;
+  font-family: "Outfit";
+  width: 100%;
+}
+main .container .content .nutrition table tr:last-child td {
+  border-bottom: none;
+}
+main .container .content .nutrition table tr td {
+  padding-left: 2rem;
+  padding-block: 1rem;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+main .container .content .nutrition table tr td:first-child {
+  color: hsl(30, 10%, 34%);
+}
+main .container .content .nutrition table tr td:last-child {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+footer {
+  padding: 1rem;
+}
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer .attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */

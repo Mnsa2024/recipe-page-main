@@ -1,0 +1,18 @@
+$breakpoints: (
+  "phone": 375px,
+  "desktop": 1440px,
+);
+
+@mixin respond-to($breakpoint) {
+  @media (max-width: map-get($breakpoints, $breakpoint)) {
+    @content;
+  }
+}
+// .container {
+//   @include respond-to("phone") {
+//     background-color: red;
+//   }
+//   @include respond-to("desktop") {
+//     background-color: blue;
+//   }
+// }
